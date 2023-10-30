@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    background: red;
+    width: 20%;
+}
+
+.left {
+    width: 80%;
+}
+
+.mapSectionContainer {
+    height: 90%;
+    background: black;
+}
+
+.playersActionSectionContainer {
+    height: 10%;
+}
+
+@media screen and (min-width: 40rem) {
+    .left {
+
+    }
+
+    .right {
+
+    }
+}
